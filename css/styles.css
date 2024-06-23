@@ -8,6 +8,42 @@ body {
 h1 {
   text-align: center;
   color: #333;
+  font-size: 20px;
+
 }
 
+/**/
 
+#listaUsuarios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  gap: 20px;
+}
+
+li{
+  list-style: none;
+  background-color: #fff;
+}
+
+img{
+  height: 60px;
+  width: 60px;
+  margin-left: 300px;
+}
+
+#listaUsuarios div {
+  width: 350px;
+  border: 2px solid #cdcbcb;
+  border-radius: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+p {
+  font-size: 10px;
+  margin: 4px;
+}
